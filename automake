@@ -139,6 +139,7 @@ initializeBuild() {
 
 
 autoBuildWatcher() {
+    
   local watchPaths="src include"
 
   # Watcher sur les fichiers modifiés (cpp, h, hpp) — reste en arrière-plan
